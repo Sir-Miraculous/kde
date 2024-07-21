@@ -1,0 +1,15 @@
+## Waybar
+mkdir -p ~/.config/waybar
+cp /etc/xdg/waybar/config.jsonc ~/.config/waybar
+cp /etc/xdg/waybar/style.css ~/.config/waybar
+
+## Swaync
+mkdir -p ~/.config/swaync
+cp /etc/xdg/swaync/config.json ~/.config/swaync
+cp /etc/xdg/swaync/style.css ~/.config/swaync
+
+## Rofi-wayland
+mkdir -p ~/.config/rofi
+rofi -dump-config > ~/.config/rofi/config.rasi
+
+##
